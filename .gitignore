@@ -1,0 +1,14 @@
+# Cache-ul generat de Python și Pytest (nu le vrem pe GitHub)
+__pycache__/
+.pytest_cache/
+.pytestwiki_cache/
+
+# Rapoartele HTML și logurile (se generează din nou la fiecare rulare)
+*.html
+*.log
+.pytest_cache/
+
+# Imagini sau screenshot-uri locale (opțional, dar recomandat să nu încarce proiectul)
+*.png
+*.jpg
+*.jpeg
