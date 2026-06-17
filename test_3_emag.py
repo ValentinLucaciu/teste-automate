@@ -11,3 +11,5 @@ def test_pret_emag(page: Page):
     # 3. Verificăm că prețul principal conține textul "369"
     # Folosim selectorul [data-test='main-price']!
     expect(page.locator("[data-test='main-price']")).to_contain_text("369")
+
+    # test  
